@@ -27,7 +27,9 @@
 				<?php do_action( 'twentyeleven_credits' ); ?>
 				<!-- <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentyeleven' ) ); ?>" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentyeleven' ); ?>"><?php printf( __( 'Proudly powered by %s', 'twentyeleven' ), 'WordPress' ); ?></a>
 				-->
-				<a>copyright 2017 MSPD | privacy | bid opportunities<br>Office of  State Public Defender - Woodrail Centre - 1000 West Nifong, Building 7, Suite 100 - Columbia, MO 65203 <br>phone: 573-777-9977 email: public.defender@mspd.mo.gov</a>
+				<p>copyright 2017 MSPD | <a https://emmaschiermeier.me/index.php/privacy/>privacy</a> | <a https://emmaschiermeier.me/index.php/privacy/>bid opportunities</a>
+				<br>Office of  State Public Defender - Woodrail Centre - 1000 West Nifong, Building 7, Suite 100 - Columbia, MO 65203 
+				<br>phone: 573-777-9977 email: <a href="mailto:public.defender@mspd.mo.gov">public.defender@mspd.mo.gov</a></p>
 				
 			</div>
 	</footer><!-- #colophon -->
