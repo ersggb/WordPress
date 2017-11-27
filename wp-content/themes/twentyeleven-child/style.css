@@ -1,0 +1,60 @@
+/*
+Theme Name: Twenty Eleven Child
+Theme URI: https://wordpress.org/themes/twentyeleven-child/
+Author: Emma Schiermeier
+Author URI: https://wordpress.org/
+Template: twentyeleven
+Description: The 2011 theme for WordPress is sophisticated, lightweight, and adaptable. Make it yours with a custom menu, header image, and background -- then go further with available theme options for light or dark color scheme, custom link colors, and three layout choices. Twenty Eleven comes equipped with a Showcase page template that transforms your front page into a showcase to show off your best content, widget support galore (sidebar, three footer areas, and a Showcase page widget area), and a custom "Ephemera" widget to display your Aside, Link, Quote, or Status posts. Included are styles for print and for the admin editor, support for featured images (as custom header images on posts and pages and as large images on featured "sticky" posts), and special styles for six different post formats.
+Version: 2.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-image-header, featured-images, flexible-header, footer-widgets, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
+Text Domain: twentyeleven-child
+*/
+
+/* =Reset default browser CSS. Based on work by Eric Meyer.
+-------------------------------------------------------------- */
+
+
+#page {
+	max-width: 1300px;
+}
+/* This sets the size of the image. Either change it here or in Additional CSS if you don't want to have to reload a child theme */
+#branding img {
+	float: left;
+	height: 75px;
+	width: 75px;
+	margin: 50px 0px 8px 28px;
+}
+#branding hgroup {
+	float: left;
+	padding-left: 0px;
+	margin: 0% 7% 0% 3%;
+	
+}
+
+
+
+
+/* =Menu
+-------------------------------------------------------------- */
+
+#access {
+	border-top: 5px solid;
+	border-color: #ffcb00;
+}
+
+/* Moving showcase sidebar to the right */
+.page-template-showcase-php #main .widget-area {
+	float: right;
+	margin: 0 1.15% 0 0;
+	width: 22.15%	
+}
+
+.page-template-showcase-php section.recent-posts {
+	float: left;
+	margin: 0 0 0 1%;
+	width: 69%;	
+}
+
+
