@@ -70,27 +70,10 @@
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed">
 	<header id="branding" role="banner">
-	
-	<!-- **** Here's where the logo next to the title code starts -->
-	<!-- 'mspd_logo' is the file name it's going to look for -->
-		<?php if ( get_theme_mod( 'mspd_logo' ) ) : ?>
-    <a href="<?php echo esc_url( home_url( '/' ) ); ?>" id="site-logo" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
- 
-        <img src="<?php echo get_theme_mod( 'mspd_logo' ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
-		<hgroup>
-				<h1 id="site-title"<span><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span></h1>
-				<h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>
-		</hgroup>
- 
-    </a>
-	
-    <?php else : ?>
-
 			<hgroup>
-				<h1 id="site-title"<span><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span></h1>
+				<h1 id="site-title"><span><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span></h1>
 				<h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>
 			</hgroup>
-	<?php endif; ?>
 
 
 			<?php
