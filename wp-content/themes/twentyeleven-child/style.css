@@ -19,22 +19,6 @@ Text Domain: twentyeleven-child
 #page {
 	max-width: 1300px;
 }
-/* This sets the size of the image. Either change it here or in Additional CSS if you don't want to have to reload a child theme */
-#branding img {
-	float: left;
-	height: 75px;
-	width: 75px;
-	margin: 50px 0px 8px 28px;
-}
-#branding hgroup {
-	float: left;
-	padding-left: 0px;
-	margin: 0% 7% 0% 3%;
-	
-}
-
-
-
 
 /* =Menu
 -------------------------------------------------------------- */
