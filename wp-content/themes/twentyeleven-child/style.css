@@ -21,6 +21,7 @@ Text Domain: twentyeleven-child
 	background: white url("/wp-content/uploads/2017/12/85-transparency.jpg") no-repeat scroll top;
 	background-size: 505px 499px;
 }
+/* if mobile device don't show watermark */
 @media (max-width : 480px) {
     #page {
         background: white;
