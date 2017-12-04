@@ -18,8 +18,13 @@ Text Domain: twentyeleven-child
 
 #page {
 	max-width: 1500px;
-	background: white url("/wp-content/uploads/2017/12/more-than-60-transparency.gif") no-repeat fixed center;
+	background: white url("/wp-content/uploads/2017/12/85-transparency.jpg") no-repeat scroll top;
 	background-size: 505px 499px;
+}
+@media (max-width : 480px) {
+    #page {
+        background: white;
+    }
 }
 
 #site-title a {
